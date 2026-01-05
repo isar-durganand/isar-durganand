@@ -51,11 +51,12 @@
 
 ## 📌 Featured Projects
 
-<p align="center">
-  <a href="https://github.com/isar-durganand/sarva-gyan-academy">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=isar-durganand&repo=sarva-gyan-academy&theme=tokyonight&hide_border=true" />
-  </a>
-</p>
+### 🎓 [Sarva Gyan Academy](https://github.com/isar-durganand/sarva-gyan-academy)
+> A comprehensive school management system built with Flask for managing students, attendance, fees, announcements, and teacher-parent communication.
+
+**Tech:** Python • Flask • SQLite • HTML/CSS • JavaScript
+
+[![View Project](https://img.shields.io/badge/View_Project-6C63FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/isar-durganand/sarva-gyan-academy)
 
 ---
 
