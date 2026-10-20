@@ -1,21 +1,20 @@
-<div align="center">
+<p align="center">
+  <img src="./header.svg" width="100%" alt="Durganand Ishar Header Banner" />
+</p>
 
-# Durganand Ishar
+<p align="center">
+  <a href="https://www.durganand.tech/"><img src="https://img.shields.io/badge/Portfolio-durganand.tech-0d1117?style=flat-square&logo=vercel&logoColor=white&labelColor=161b22" alt="Portfolio" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/durganandishar/"><img src="https://img.shields.io/badge/LinkedIn-durganandishar-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=161b22" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="mailto:isardurganand@gmail.com"><img src="https://img.shields.io/badge/Email-isardurganand%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=161b22" alt="Email" /></a>
+  &nbsp;
+  <a href="https://github.com/isar-durganand"><img src="https://img.shields.io/badge/GitHub-isar--durganand-0d1117?style=flat-square&logo=github&logoColor=white&labelColor=161b22" alt="GitHub" /></a>
+</p>
 
-**B.Tech Computer Science & Engineering Undergrad • C/C++ & DSA • Full-Stack Developer**  
-*Manav Rachna International Institute of Research & Studies (MRIIRS), Faridabad • Class of 2030*
-
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-durganand.tech-0d1117?style=flat-square&logo=vercel&logoColor=white&labelColor=161b22)](https://www.durganand.tech/)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-durganandishar-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=161b22)](https://www.linkedin.com/in/durganandishar/)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-isardurganand%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=161b22)](mailto:isardurganand@gmail.com)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-isar--durganand-0d1117?style=flat-square&logo=github&logoColor=white&labelColor=161b22)](https://github.com/isar-durganand)
-
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=520&lines=B.Tech+CSE+Student+%40+MRIIRS+(2026-2030);Passionate+C%2B%2B+%26+DSA+Problem+Solver;Architecting+Modern+Full-Stack+Web+Apps;Turning+Ideas+Into+High-Performance+Code" alt="Typing SVG" />
+</p>
 
 ---
 
@@ -95,12 +94,12 @@
 
 <br/>
 
-#### 🌐 [Cinematic 3D Portfolio](https://durganand-ishar.vercel.app/)
+#### 🌐 [Cinematic 3D Portfolio](https://www.durganand.tech/)
 > **Interactive WebGL & Kinetic Typography Experience**
 
 - **Highlights:** Built with a Three.js typography tunnel mask (`DURGANAND`), 60fps Lenis + GSAP ScrollTrigger timeline, Archimedean tech spiral, and 3D perspective project decks.
 - **Stack:** `React` • `TypeScript` • `Three.js` • `GSAP` • `Lenis`
-- **Links:** [Live Portfolio ↗](https://durganand-ishar.vercel.app/)
+- **Links:** [Live Portfolio ↗](https://www.durganand.tech/)
 
 <br/>
 
@@ -116,13 +115,23 @@
 ### 📊 GitHub Activity & Analytics
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=isar-durganand&theme=tokyonight&hide_border=true&background=0d1117&ring=60a5fa&fire=f59e0b&currStreakLabel=60a5fa" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=isar-durganand&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f59e0b&currStreakLabel=38bdf8" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=isar-durganand&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=60a5fa&icon_color=60a5fa&text_color=94a3b8&count_private=true" width="48.5%" alt="Durganand's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=isar-durganand&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&count_private=true" width="48.5%" alt="Durganand's GitHub Stats" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=isar-durganand&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=60a5fa&text_color=94a3b8" width="48.5%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=isar-durganand&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" width="48.5%" alt="Top Languages" />
+</p>
+
+<br/>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/isar-durganand/isar-durganand/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/isar-durganand/isar-durganand/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/isar-durganand/isar-durganand/output/github-contribution-grid-snake.svg">
+  </picture>
 </p>
 
 ---
@@ -131,7 +140,7 @@
 
 ### 🤝 Connect With Me
 
-[![Portfolio](https://img.shields.io/badge/Live_Portfolio-durganand--ishar.vercel.app-0d1117?style=flat-square&logo=vercel&logoColor=white&labelColor=161b22)](https://durganand-ishar.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Live_Portfolio-durganand.tech-0d1117?style=flat-square&logo=vercel&logoColor=white&labelColor=161b22)](https://www.durganand.tech/)
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-durganandishar-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=161b22)](https://www.linkedin.com/in/durganandishar/)
 &nbsp;
@@ -141,8 +150,12 @@
 
 <br/><br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=isar-durganand&color=60a5fa&style=flat-square&label=Profile+Views)](https://github.com/isar-durganand)
+[![Profile Views](https://komarev.com/ghpvc/?username=isar-durganand&color=38bdf8&style=flat-square&label=Profile+Views)](https://github.com/isar-durganand)
 
 <sub>*“Turning logic into reality, one line at a time.”*</sub>
 
 </div>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" alt="Footer Wave" />
+</p>
