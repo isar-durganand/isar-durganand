@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./header.svg" width="100%" alt="Durganand Ishar Header Banner" />
+  <img src="./header.svg" width="100%" alt="Durganand Ishar Header" />
 </p>
 
 <p align="center">
@@ -12,114 +12,93 @@
   <a href="https://github.com/isar-durganand"><img src="https://img.shields.io/badge/GitHub-isar--durganand-0d1117?style=flat-square&logo=github&logoColor=white&labelColor=161b22" alt="GitHub" /></a>
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=520&lines=B.Tech+CSE+Student+%40+MRIIRS+(2026-2030);Passionate+C%2B%2B+%26+DSA+Problem+Solver;Architecting+Modern+Full-Stack+Web+Apps;Turning+Ideas+Into+High-Performance+Code" alt="Typing SVG" />
-</p>
-
 ---
 
-### 📌 About Me
+## About
 
-> 1st-year, 1st-semester **B.Tech Computer Science & Engineering** student at **Manav Rachna International Institute of Research and Studies (MRIIRS)**, Faridabad `[2026 – 2030]`.
+> First-year **B.Tech Computer Science & Engineering** student at **Manav Rachna International Institute of Research and Studies (MRIIRS)**, Faridabad `[2026 – 2030]`.
 
-- 💻 **Engineering Passion:** I love coding deeply — studying low-level mechanics, writing C & C++, and solving algorithmic challenges every day.
-- 🧠 **Current Core Focus:** Deep dive into **C & C++**, memory architecture, pointers, and foundational **Data Structures & Algorithms (DSA)**.
-- 🚀 **Full-Stack Systems:** Architecting and shipping practical web utilities, privacy-first client-side engines, and analytics platforms with **React, TypeScript, Python, and Flask**.
-- 💡 **Journey:** Discovered programming and AI after Class 12, building and deploying production-ready projects in 2026.
+- **Core Focus:** Studying computer science fundamentals, memory architecture, pointers, and **Data Structures & Algorithms (DSA)** in **C and C++**.
+- **Web Development:** Architecting full-stack web applications and tools using **React**, **TypeScript**, **Python**, and **Flask**.
+- **Background:** Completed Higher Secondary education in 2025 (Physics, Chemistry, Maths, Computer) and began coding in 2026. Actively solving programming problems daily.
 
 <br/>
 
-#### 🎓 Academic Journey
+### Education
 
-| Institution | Level & Stream | Timeline | Performance |
+| Institution | Degree / Stream | Timeline | Result |
 | :--- | :--- | :---: | :---: |
-| **Manav Rachna Int. Inst. of Research & Studies (MRIIRS)** | B.Tech Computer Science & Engineering | `2026 – 2030` | *1st Year (1st Sem)* |
-| **Ideal Public School, Faridabad** | Class 12 • Higher Secondary *(PCM + CS)* | `2023 – 2025` | **95.0%** |
-| **Janaki English Boarding School, Biratnagar** | Class 10 • Secondary *(SLC / SEE)* | `2023` | **93.75%** *(Distinction)* |
+| **Manav Rachna International Institute of Research & Studies (MRIIRS)** | B.Tech Computer Science & Engineering | 2026 – 2030 | *1st Year (1st Sem)* |
+| **Ideal Public School, Faridabad** | Class 12 • Higher Secondary (PCM + CS) | 2023 – 2025 | **95.0%** |
+| **Janaki English Boarding School, Biratnagar** | Class 10 • Secondary (SEE) | 2023 | **93.75%** *(Distinction)* |
 
 ---
 
-### 🛠️ Technical Arsenal
+## Technical Skills
 
-<table>
-  <tr>
-    <td width="26%"><strong>Core & Low-Level</strong></td>
-    <td><code>C</code> <code>C++</code> <code>Data Structures & Algorithms</code> <code>Pointers & Memory</code></td>
-  </tr>
-  <tr>
-    <td width="26%"><strong>Web & Backend</strong></td>
-    <td><code>Python</code> <code>Flask</code> <code>JavaScript (ES6+)</code> <code>TypeScript</code> <code>HTML5 / CSS3</code></td>
-  </tr>
-  <tr>
-    <td width="26%"><strong>Frontend & UI</strong></td>
-    <td><code>React</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Three.js / WebGL</code> <code>GSAP</code></td>
-  </tr>
-  <tr>
-    <td width="26%"><strong>Database & Cloud</strong></td>
-    <td><code>SQLite</code> <code>Firebase</code> <code>Vercel</code> <code>Git & GitHub CI</code></td>
-  </tr>
-  <tr>
-    <td width="26%"><strong>Developer Environment</strong></td>
-    <td><code>VS Code</code> <code>Linux / Bash</code> <code>Postman</code> <code>GCC / Clang</code></td>
-  </tr>
-</table>
+| Area | Technologies |
+| :--- | :--- |
+| **Languages** | `C` `C++` `Python` `JavaScript (ES6+)` `TypeScript` `HTML5` `CSS3` |
+| **Frontend & UI** | `React` `Next.js` `Tailwind CSS` `Three.js` `GSAP` |
+| **Backend & Databases** | `Flask` `Node.js` `SQLite` `Firebase` |
+| **Developer Tools** | `Git` `GitHub` `VS Code` `Linux / Bash` `Postman` `GCC / Clang` |
 
 <br/>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,js,ts,react,nextjs,tailwind,flask,sqlite,firebase,git,github,vscode,linux&theme=dark" alt="Skill Icons" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,js,ts,react,nextjs,tailwind,flask,sqlite,firebase,git,github,vscode,linux&theme=dark" alt="Technical Skills" />
 </p>
 
 ---
 
-### 🚀 Featured Projects
+## Projects
 
-#### 📄 [Printify Notes](https://www.printifynotes.in/)
-> **100% In-Browser Document Dark-Mode Inverter & PDF Privacy Engine**
+### [Printify Notes](https://www.printifynotes.in/)
+**In-Browser Document Dark-Mode Inverter & PDF Privacy Engine**
 
-- **Problem:** Students downloading lecture slides with dark backgrounds waste excessive ink and money when printing. Existing online tools require uploading private student files to external servers.
-- **Solution:** A zero-upload client-side processing pipeline that inverts dark backgrounds to pure white while preserving text and diagram contrast. Zero server costs, 100% private.
+- **Problem:** Students downloading lecture slides with dark backgrounds waste excessive printer ink. Existing online tools require uploading private student documents to third-party servers.
+- **Solution:** A client-side processing pipeline using HTML5 Canvas that inverts dark backgrounds to pure white while preserving text and diagram contrast. Zero server costs, 100% private.
 - **Stack:** `React` • `TypeScript` • `Tailwind CSS` • `Vite` • `HTML5 Canvas`
-- **Links:** [Live Web App ↗](https://www.printifynotes.in/)
+- **Links:** [Live App](https://www.printifynotes.in/)
 
 <br/>
 
-#### 🎓 [JoSAA College Predictor](https://josaacollegepredictor.vercel.app/)
-> **Data-Driven Engineering Admissions Analytics Engine**
+### [JoSAA College Predictor](https://josaacollegepredictor.vercel.app/)
+**Admissions Cutoff Analytics & Probabilistic Predictor**
 
-- **Problem:** Navigating thousands of historical opening and closing rank combinations across IITs, NITs, and IIITs is overwhelming for engineering aspirants during counseling.
+- **Problem:** Navigating historical opening and closing rank combinations across IITs, NITs, and IIITs is confusing for engineering aspirants during counseling.
 - **Solution:** Correlates student rank, category, quota, and NIRF rankings against historical cutoff data to estimate realistic admission probabilities.
 - **Stack:** `Python` • `Flask` • `React` • `Data Analytics` • `Vercel`
-- **Links:** [Live Web App ↗](https://josaacollegepredictor.vercel.app/) &bull; [GitHub Repository ↗](https://github.com/isar-durganand/josaapredictor)
+- **Links:** [Live App](https://josaacollegepredictor.vercel.app/) &bull; [GitHub Repository](https://github.com/isar-durganand/josaapredictor)
 
 <br/>
 
-#### 🌐 [Cinematic 3D Portfolio](https://www.durganand.tech/)
-> **Interactive WebGL & Kinetic Typography Experience**
+### [Personal Portfolio](https://www.durganand.tech/)
+**Interactive WebGL & Kinetic Typography Experience**
 
-- **Highlights:** Built with a Three.js typography tunnel mask (`DURGANAND`), 60fps Lenis + GSAP ScrollTrigger timeline, Archimedean tech spiral, and 3D perspective project decks.
+- **Overview:** Built with a Three.js typography tunnel mask, 60fps Lenis + GSAP ScrollTrigger timeline, Archimedean tech spiral, and 3D perspective project decks.
 - **Stack:** `React` • `TypeScript` • `Three.js` • `GSAP` • `Lenis`
-- **Links:** [Live Portfolio ↗](https://www.durganand.tech/)
+- **Links:** [Live Portfolio](https://www.durganand.tech/)
 
 <br/>
 
-#### 🏫 [Sarva Gyan Academy](https://github.com/isar-durganand/sarva-gyan-academy)
-> **Full-Stack Academic Administration & Portal System**
+### [Sarva Gyan Academy](https://github.com/isar-durganand/sarva-gyan-academy)
+**Full-Stack Academic Administration Portal**
 
-- **Highlights:** A comprehensive school management platform built with Flask and SQLite for managing student records, attendance, fees, and administrative announcements.
+- **Overview:** A school management platform built with Flask and SQLite for managing student records, attendance, fees, and administrative announcements.
 - **Stack:** `Python` • `Flask` • `SQLite` • `JavaScript` • `HTML/CSS`
-- **Links:** [GitHub Repository ↗](https://github.com/isar-durganand/sarva-gyan-academy)
+- **Links:** [GitHub Repository](https://github.com/isar-durganand/sarva-gyan-academy)
 
 ---
 
-### 📊 GitHub Activity & Analytics
+## GitHub Activity
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=isar-durganand&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f59e0b&currStreakLabel=38bdf8" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=isar-durganand&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&count_private=true" width="48.5%" alt="Durganand's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=isar-durganand&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&count_private=true" width="48.5%" alt="GitHub Stats" />
   &nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=isar-durganand&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" width="48.5%" alt="Top Languages" />
 </p>
@@ -130,7 +109,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/isar-durganand/isar-durganand/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/isar-durganand/isar-durganand/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/isar-durganand/isar-durganand/output/github-contribution-grid-snake.svg">
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/isar-durganand/isar-durganand/output/github-contribution-grid-snake.svg">
   </picture>
 </p>
 
@@ -138,9 +117,9 @@
 
 <div align="center">
 
-### 🤝 Connect With Me
+## Contact
 
-[![Portfolio](https://img.shields.io/badge/Live_Portfolio-durganand.tech-0d1117?style=flat-square&logo=vercel&logoColor=white&labelColor=161b22)](https://www.durganand.tech/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-durganand.tech-0d1117?style=flat-square&logo=vercel&logoColor=white&labelColor=161b22)](https://www.durganand.tech/)
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-durganandishar-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=161b22)](https://www.linkedin.com/in/durganandishar/)
 &nbsp;
@@ -152,10 +131,4 @@
 
 [![Profile Views](https://komarev.com/ghpvc/?username=isar-durganand&color=38bdf8&style=flat-square&label=Profile+Views)](https://github.com/isar-durganand)
 
-<sub>*“Turning logic into reality, one line at a time.”*</sub>
-
 </div>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" alt="Footer Wave" />
-</p>

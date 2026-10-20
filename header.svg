@@ -1,226 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 300" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" width="100%" height="100%">
   <defs>
-    <!-- Dark Canvas Background -->
+    <!-- Dark Surface Background -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080c14" />
-      <stop offset="50%" stop-color="#0e1726" />
-      <stop offset="100%" stop-color="#05080f" />
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
     </linearGradient>
 
-    <!-- Moving Aurora Gradient 1 (Cyan/Blue) -->
-    <radialGradient id="auroraCyan" cx="25%" cy="35%" r="55%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.32" />
-      <stop offset="60%" stop-color="#0284c7" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
-      <animate attributeName="cx" values="25%;40%;25%" dur="10s" repeatCount="indefinite" />
-      <animate attributeName="cy" values="35%;50%;35%" dur="10s" repeatCount="indefinite" />
-    </radialGradient>
-
-    <!-- Moving Aurora Gradient 2 (Purple/Violet) -->
-    <radialGradient id="auroraViolet" cx="75%" cy="65%" r="60%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.28" />
-      <stop offset="60%" stop-color="#7c3aed" stop-opacity="0.06" />
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0" />
-      <animate attributeName="cx" values="75%;60%;75%" dur="12s" repeatCount="indefinite" />
-      <animate attributeName="cy" values="65%;45%;65%" dur="12s" repeatCount="indefinite" />
-    </radialGradient>
-
-    <!-- Animated Perimeter Border Gradient -->
-    <linearGradient id="borderAnim" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8">
-        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#c084fc;#38bdf8" dur="8s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="50%" stop-color="#818cf8">
-        <animate attributeName="stop-color" values="#818cf8;#c084fc;#38bdf8;#818cf8" dur="8s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#c084fc">
-        <animate attributeName="stop-color" values="#c084fc;#38bdf8;#818cf8;#c084fc" dur="8s" repeatCount="indefinite" />
-      </stop>
+    <!-- Subtle Hairline Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#30363d" />
+      <stop offset="50%" stop-color="#60a5fa" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#30363d" />
     </linearGradient>
 
-    <!-- Dot Pattern -->
-    <pattern id="dotPattern" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.1" fill="#475569" fill-opacity="0.28" />
+    <!-- Code Card Gradient -->
+    <linearGradient id="codeBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <pattern id="dotGrid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#30363d" fill-opacity="0.35" />
     </pattern>
-
-    <!-- Top Laser Runner -->
-    <linearGradient id="laser" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
-      <stop offset="50%" stop-color="#38bdf8" stop-opacity="1" />
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
-    </linearGradient>
-
-    <clipPath id="cardClip">
-      <rect x="2" y="2" width="916" height="296" rx="16" />
-    </clipPath>
   </defs>
 
   <style>
-    @keyframes textPhase1 {
-      0%, 28% { opacity: 1; transform: translateY(0); }
-      33%, 95% { opacity: 0; transform: translateY(-8px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes textPhase2 {
-      0%, 28% { opacity: 0; transform: translateY(8px); }
-      33%, 61% { opacity: 1; transform: translateY(0); }
-      66%, 100% { opacity: 0; transform: translateY(-8px); }
-    }
-    @keyframes textPhase3 {
-      0%, 61% { opacity: 0; transform: translateY(8px); }
-      66%, 95% { opacity: 1; transform: translateY(0); }
-      100% { opacity: 0; transform: translateY(-8px); }
-    }
-    @keyframes cursorBlink {
-      0%, 49% { opacity: 1; }
-      50%, 100% { opacity: 0; }
-    }
-    @keyframes float1 {
-      0%, 100% { transform: translateY(0px) rotate(0deg); }
-      50% { transform: translateY(-8px) rotate(-1deg); }
-    }
-    @keyframes float2 {
-      0%, 100% { transform: translateY(0px) rotate(0deg); }
-      50% { transform: translateY(7px) rotate(1.2deg); }
-    }
-    @keyframes float3 {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-6px); }
-    }
-    @keyframes pingWave {
-      0% { r: 4px; opacity: 1; }
-      100% { r: 15px; opacity: 0; }
-    }
-    @keyframes laserRun {
-      0% { transform: translateX(-400px); }
-      100% { transform: translateX(950px); }
-    }
-
-    .base { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif; }
-    .mono { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
-
-    .p1 { animation: textPhase1 9s ease-in-out infinite; }
-    .p2 { animation: textPhase2 9s ease-in-out infinite; }
-    .p3 { animation: textPhase3 9s ease-in-out infinite; }
-    .cursor { animation: cursorBlink 0.9s infinite; }
-    
-    .chip-1 { animation: float1 4.5s ease-in-out infinite; }
-    .chip-2 { animation: float2 5.5s ease-in-out infinite; }
-    .chip-3 { animation: float3 4s ease-in-out infinite; }
-    .ping { animation: pingWave 2s cubic-bezier(0, 0.2, 0.8, 1) infinite; }
-    .laser-line { animation: laserRun 5s linear infinite; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
   </style>
 
-  <!-- Outer Card Container -->
-  <g clip-path="url(#cardClip)">
-    <!-- Base Fill -->
-    <rect x="2" y="2" width="916" height="296" fill="url(#bgGrad)" />
-    <!-- Grid Pattern -->
-    <rect x="2" y="2" width="916" height="296" fill="url(#dotPattern)" />
-    <!-- Shifting Ambient Auroras -->
-    <rect x="2" y="2" width="916" height="296" fill="url(#auroraCyan)" />
-    <rect x="2" y="2" width="916" height="296" fill="url(#auroraViolet)" />
-    <!-- Top Running Laser Line -->
-    <rect x="0" y="2" width="350" height="2.5" fill="url(#laser)" class="laser-line" />
-  </g>
+  <!-- Background Base -->
+  <rect x="1" y="1" width="918" height="258" rx="12" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.2" />
+  <rect x="2" y="2" width="916" height="256" rx="11" fill="url(#dotGrid)" />
 
-  <!-- Animated Glowing Border -->
-  <rect x="2" y="2" width="916" height="296" rx="16" fill="none" stroke="url(#borderAnim)" stroke-width="2" opacity="0.85" />
-
-  <!-- LEFT COLUMN: Identity & Bio -->
-  <g transform="translate(46, 42)">
+  <!-- LEFT: Profile & Identity -->
+  <g transform="translate(44, 38)">
     
-    <!-- Status / Role Badge with Radar Beacon -->
+    <!-- Status Pill -->
     <g>
-      <rect width="310" height="28" rx="14" fill="#0c1322" stroke="#1e293b" stroke-width="1.2" />
-      <circle cx="16" cy="14" r="5" fill="#38bdf8" class="ping" />
-      <circle cx="16" cy="14" r="4.5" fill="#38bdf8" />
-      <text x="30" y="18.5" class="mono" font-size="11.5" font-weight="600" fill="#93c5fd" letter-spacing="0.6">
+      <rect width="270" height="24" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <circle cx="12" cy="12" r="3.5" fill="#3fb950" />
+      <text x="24" y="16" class="font-mono" font-size="11" font-weight="600" fill="#8b949e" letter-spacing="0.5">
         B.TECH CSE • MRIIRS (2026–2030)
       </text>
     </g>
 
-    <!-- Large Title -->
-    <g transform="translate(0, 74)">
-      <text class="base" font-size="40" font-weight="800" fill="#ffffff" letter-spacing="-0.8">
-        Durganand Ishar
-      </text>
-    </g>
+    <!-- Name Heading -->
+    <text x="0" y="70" class="font-sans" font-size="34" font-weight="700" fill="#f0f6fc" letter-spacing="-0.5">
+      Durganand Ishar
+    </text>
 
-    <!-- Rotating Dynamic Terminal Subtitle -->
-    <g transform="translate(0, 112)">
-      <!-- Phase 1 -->
-      <g class="p1">
-        <text class="mono" font-size="15.5" font-weight="500" fill="#38bdf8">
-          &gt; Low-Level Systems &amp; C/C++ Problem Solving<tspan class="cursor" fill="#38bdf8">█</tspan>
-        </text>
-      </g>
-      <!-- Phase 2 -->
-      <g class="p2">
-        <text class="mono" font-size="15.5" font-weight="500" fill="#a78bfa">
-          &gt; Data Structures &amp; Algorithmic Foundations<tspan class="cursor" fill="#a78bfa">█</tspan>
-        </text>
-      </g>
-      <!-- Phase 3 -->
-      <g class="p3">
-        <text class="mono" font-size="15.5" font-weight="500" fill="#34d399">
-          &gt; Modern Full-Stack Systems &amp; Web Products<tspan class="cursor" fill="#34d399">█</tspan>
-        </text>
-      </g>
-    </g>
+    <!-- Subtitle -->
+    <text x="0" y="100" class="font-sans" font-size="15" font-weight="400" fill="#58a6ff">
+      C/C++ &amp; Data Structures • Full-Stack Web Development
+    </text>
 
-    <!-- Subtitle Description / Academic Line -->
-    <g transform="translate(0, 148)">
-      <text class="base" font-size="13.5" fill="#94a3b8">
-        Faridabad, Delhi NCR • <tspan fill="#e2e8f0" font-weight="600">12th: 95.0%</tspan> • <tspan fill="#e2e8f0" font-weight="600">10th: 93.75%</tspan> • Daily Competitive Coder
-      </text>
-    </g>
+    <!-- Bio Statement -->
+    <text x="0" y="128" class="font-sans" font-size="13" fill="#8b949e">
+      First-year undergrad at MRIIRS, Faridabad. Writing code daily, studying algorithms,
+    </text>
+    <text x="0" y="148" class="font-sans" font-size="13" fill="#8b949e">
+      and architecting clean, privacy-first software tools.
+    </text>
 
-    <!-- Tech Arsenal Micro-Tags -->
-    <g transform="translate(0, 182)">
-      <!-- Tag 1 -->
-      <rect width="132" height="26" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
-      <text x="12" y="17.5" class="mono" font-size="11.5" font-weight="600" fill="#cbd5e1">⚡ C &amp; C++ / DSA</text>
+    <!-- Academic Badges (Clean Monospace Pills) -->
+    <g transform="translate(0, 172)">
+      <rect width="112" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+      <text x="10" y="15" class="font-mono" font-size="11" fill="#c9d1d9">12th: 95.0%</text>
 
-      <!-- Tag 2 -->
-      <rect x="142" width="138" height="26" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
-      <text x="154" y="17.5" class="mono" font-size="11.5" font-weight="600" fill="#cbd5e1">🚀 React / Next.js</text>
+      <rect x="120" width="118" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+      <text x="130" y="15" class="font-mono" font-size="11" fill="#c9d1d9">10th: 93.75%</text>
 
-      <!-- Tag 3 -->
-      <rect x="290" width="136" height="26" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1" />
-      <text x="302" y="17.5" class="mono" font-size="11.5" font-weight="600" fill="#cbd5e1">🐍 Python / Flask</text>
-
-      <!-- Tag 4 -->
-      <rect x="436" width="128" height="26" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1" />
-      <text x="448" y="17.5" class="mono" font-size="11.5" font-weight="600" fill="#38bdf8">💡 System Thinker</text>
+      <rect x="246" width="138" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.8" />
+      <text x="256" y="15" class="font-mono" font-size="11" fill="#79c0ff">Faridabad, India</text>
     </g>
 
   </g>
 
-  <!-- RIGHT COLUMN: 3D Floating Cyber Hologram Cards -->
-  <g transform="translate(710, 48)">
+  <!-- RIGHT: Real C++ Code Terminal Window -->
+  <g transform="translate(560, 36)">
+    <!-- Terminal Outer Frame -->
+    <rect width="316" height="186" rx="8" fill="url(#codeBg)" stroke="#30363d" stroke-width="1" />
     
-    <!-- Floating Card 1: C++ / DSA Core -->
-    <g class="chip-1" transform="translate(15, 0)">
-      <rect width="150" height="52" rx="12" fill="#0d1424" stroke="#38bdf8" stroke-width="1.4" opacity="0.95" />
-      <text x="18" y="24" class="mono" font-size="10.5" font-weight="700" fill="#38bdf8" letter-spacing="1">CORE ENGINE</text>
-      <text x="18" y="42" class="mono" font-size="14" font-weight="800" fill="#ffffff">&lt;C++ / DSA&gt;</text>
-    </g>
+    <!-- Titlebar -->
+    <rect width="316" height="28" rx="8" fill="#161b22" />
+    <path d="M 0 28 L 316 28" stroke="#30363d" stroke-width="1" />
+    
+    <!-- Window Controls -->
+    <circle cx="16" cy="14" r="4.5" fill="#ff5f56" />
+    <circle cx="30" cy="14" r="4.5" fill="#ffbd2e" />
+    <circle cx="44" cy="14" r="4.5" fill="#27c93f" />
 
-    <!-- Floating Card 2: Full-Stack Systems -->
-    <g class="chip-2" transform="translate(-15, 76)">
-      <rect width="165" height="52" rx="12" fill="#0d1424" stroke="#818cf8" stroke-width="1.4" opacity="0.95" />
-      <text x="18" y="24" class="mono" font-size="10.5" font-weight="700" fill="#818cf8" letter-spacing="1">FULL-STACK</text>
-      <text x="18" y="42" class="mono" font-size="14" font-weight="800" fill="#ffffff">Web &amp; Cloud ↗</text>
-    </g>
+    <!-- File Label -->
+    <text x="158" y="18" class="font-mono" font-size="11" fill="#8b949e" text-anchor="middle">
+      main.cpp
+    </text>
 
-    <!-- Floating Card 3: Problem Solver -->
-    <g class="chip-3" transform="translate(20, 152)">
-      <rect width="145" height="52" rx="12" fill="#0d1424" stroke="#34d399" stroke-width="1.4" opacity="0.95" />
-      <text x="18" y="24" class="mono" font-size="10.5" font-weight="700" fill="#34d399" letter-spacing="1">PHILOSOPHY</text>
-      <text x="18" y="42" class="mono" font-size="14" font-weight="800" fill="#ffffff">Build &amp; Ship ⚡</text>
-    </g>
+    <!-- Code Content -->
+    <g transform="translate(18, 48)" class="font-mono" font-size="12">
+      <!-- Line 1 -->
+      <text y="0">
+        <tspan fill="#ff7b72">#include</tspan> <tspan fill="#a5d6ff">&lt;iostream&gt;</tspan>
+      </text>
 
+      <!-- Line 2 -->
+      <text y="20">
+        <tspan fill="#ff7b72">#include</tspan> <tspan fill="#a5d6ff">&lt;vector&gt;</tspan>
+      </text>
+
+      <!-- Line 3 -->
+      <text y="44">
+        <tspan fill="#ff7b72">int</tspan> <tspan fill="#d2a8ff">main</tspan>() {
+      </text>
+
+      <!-- Line 4 -->
+      <text y="64" x="14">
+        <tspan fill="#79c0ff">std</tspan>::<tspan fill="#d2a8ff">cout</tspan> &lt;&lt; <tspan fill="#a5d6ff">"Hello, World!\n"</tspan>;
+      </text>
+
+      <!-- Line 5 -->
+      <text y="84" x="14">
+        <tspan fill="#8b949e">// Learning C++ &amp; DSA daily</tspan>
+      </text>
+
+      <!-- Line 6 -->
+      <text y="104" x="14">
+        <tspan fill="#ff7b72">return</tspan> <tspan fill="#79c0ff">0</tspan>;
+      </text>
+
+      <!-- Line 7 -->
+      <text y="124">
+        }
+      </text>
+    </g>
   </g>
 
 </svg>
