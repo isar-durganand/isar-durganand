@@ -7,7 +7,7 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-durganand--ishar.vercel.app-0d1117?style=flat-square&logo=vercel&logoColor=white&labelColor=161b22)](https://durganand-ishar.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-durganand.tech-0d1117?style=flat-square&logo=vercel&logoColor=white&labelColor=161b22)](https://www.durganand.tech/)
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-durganandishar-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=161b22)](https://www.linkedin.com/in/durganandishar/)
 &nbsp;
