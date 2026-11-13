@@ -26,11 +26,11 @@
 
 ### Education
 
-| Institution | Degree / Stream | Timeline | Result |
-| :--- | :--- | :---: | :---: |
-| **Manav Rachna International Institute of Research & Studies (MRIIRS)** | B.Tech Computer Science & Engineering | 2026 – 2030 | *1st Year (1st Sem)* |
-| **Ideal Public School, Faridabad** | Class 12 • Higher Secondary (PCM + CS) | 2023 – 2025 | **95.0%** |
-| **Janaki English Boarding School, Biratnagar** | Class 10 • Secondary (SEE) | 2023 | **93.75%** *(Distinction)* |
+| Institution | Degree / Stream | Timeline |
+| :--- | :--- | :---: |
+| **Manav Rachna International Institute of Research & Studies (MRIIRS)** | B.Tech Computer Science & Engineering | 2026 – 2030 |
+| **Ideal Public School, Faridabad** | Class 12 • Higher Secondary (PCM + CS) | 2023 – 2025 |
+| **Janaki English Boarding School, Biratnagar** | Class 10 • Secondary (SEE) | 2023 |
 
 ---
 
